@@ -80,6 +80,19 @@ function App() {
             <span className="label">{link.label}</span>
           </a>
         ))}
+
+        <a
+          href="/apresentacao-por-que-laravel.pdf"
+          download="Por que Laravel - Lucio Azevedo.pdf"
+          className="glass-btn"
+        >
+          <span className="icon" style={{ color: '#FF2D20' }}>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 16.5a1 1 0 0 1-.71-.29l-5-5a1 1 0 1 1 1.42-1.42L11 13.09V3a1 1 0 1 1 2 0v10.09l3.29-3.3a1 1 0 1 1 1.42 1.42l-5 5a1 1 0 0 1-.71.29ZM4 19h16a1 1 0 1 1 0 2H4a1 1 0 1 1 0-2Z" />
+            </svg>
+          </span>
+          <span className="label">Baixar apresentação: Por que Laravel?</span>
+        </a>
       </nav>
 
       <footer className="footer">© {new Date().getFullYear()} {profile.name}</footer>
